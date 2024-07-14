@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>John Doe</h1>
+        <p>Software Developer | Tech Enthusiast | Lifelong Learner</p>
+    </header>
+
+    <section id="bio">
+        <h2>About Me</h2>
+        <p>Hello! I'm John Doe, a passionate software developer with over 5 years of experience in building web applications. My journey in tech began at a young age, driven by a curiosity for how things work. Today, I specialize in front-end development and am continually exploring new technologies and methodologies to improve my craft.</p>
+        <p>I'm motivated by the ever-evolving landscape of technology and the challenges it presents. I thrive in collaborative environments where I can contribute to innovative projects and learn from my peers. My goal is to create meaningful and efficient solutions that make a positive impact.</p>
+        <p>Outside of work, I enjoy reading tech blogs, contributing to open-source projects, and exploring the great outdoors.</p>
+    </section>
+
+    <section id="contact-details">
+        <h2>Contact Details</h2>
+        <p>Name: John Doe</p>
+        <p>Contact Number: (123) 456-7890</p>
+        <p>Email: john.doe@example.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></p>
+    </section>
+
+    <section id="photo">
+        <h2>My Photo</h2>
+        <img src="path-to-your-photo.jpg" alt="John Doe" width="200">
+    </section>
+
+    <section id="skills">
+        <h2>Skills and Competencies</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React.js, Angular</li>
+            <li>Node.js, Express</li>
+            <li>Python, Django</li>
+            <li>Version Control (Git, GitHub)</li>
+            <li>Agile Methodologies</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>Bachelor of Science in Computer Science</p>
+        <p>University of Somewhere, 2015-2019</p>
+    </section>
+
+    <section id="work-experience">
+        <h2>Work Experience</h2>
+        <h3>Software Developer at Tech Solutions</h3>
+        <p>2019 - Present</p>
+        <p>Responsibilities:</p>
+        <ul>
+            <li>Developing and maintaining web applications using React.js and Node.js.</li>
+            <li>Collaborating with cross-functional teams to define, design, and ship new features.</li>
+            <li>Optimizing applications for maximum speed and scalability.</li>
+            <li>Writing clean, maintainable, and efficient code.</li>
+        </ul>
+        <h3>Intern at Web Innovations</h3>
+        <p>Summer 2018</p>
+        <p>Responsibilities:</p>
+        <ul>
+            <li>Assisted in developing front-end components for client projects.</li>
+            <li>Conducted testing and debugging of web applications.</li>
+            <li>Participated in code reviews and team meetings.</li>
+        </ul>
+    </section>
+
+    <section id="search-form">
+        <h2>Search My CV</h2>
+        <form method="GET" action="/search">
+            <label for="search">Search:</label>
+            <input type="text" id="search" name="q" placeholder="Enter keywords...">
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section id="contact-form">
+        <h2>Contact Me</h2>
+        <form method="POST" action="/contact">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+What is normalisation?:
+
+• Normalisation is the process of minimizing redundancy from a relation or set of relations.
+	Redundancy in relation may cause insertion, deletion, and update anomalies.
+	So, it helps to minimize the redundancy in relations.
+	Normal forms are used to eliminate or reduce redundancy in database tables. 
+
+
+When is a table in 1NF?:
+
+• The data must be presented in a tabular format, where each cell has a single
+	value and there are no repeating groups meaning all columns contain only
+	atomic values—that is, each column can have only one value for each row in the table.
+
+
+When is a table in 2NF?:
+
+• A table is in Second Normal Form (2NF) if it is in 1NF and has no partial key dependencies
+	once the primary key has been identified. In other words, every non-primary-key
+	attribute is fully functionally dependent on the primary key, then the relation
+	is in Second Normal Form (2NF).
+
+
+When is a table in 3NF?:
+
+• A table is said to be in 3NF when it is in 2NF; and it contains no transitive dependencies which are
+	are dependencies of one non-prime attribute (an attribute that is not part of a primary key)
+	on another non-prime attribute.
+
+
+What is a foreign key?:
+
+•  foreign keys are columns that link to primary key columns in other tables, thereby creating a relationship
