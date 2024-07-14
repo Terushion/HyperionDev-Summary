@@ -21,7 +21,7 @@ under a variable that can be returned to the user in the terminal
 
 """
 
-""" What I essentially want to do but using recursively """
+""" What I essentially want to do but recursively """
 
 # def largest_num():
 
