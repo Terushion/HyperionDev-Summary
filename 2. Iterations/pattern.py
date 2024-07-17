@@ -1,15 +1,35 @@
 ''' Practical task two '''
 
+
+"""
+Follow these steps:
+
+    ● Create a new Python file in this folder called pattern.py.
+    ● Write code to output the pattern shown below, using an if-else statement
+    in combination with a single for loop (it’s really easy with two, but using
+    only one takes a little more thought):
+
+    *
+    **
+    ***
+    ****
+    *****
+    ****
+    ***
+    **
+    *
+
+"""
+
+
 # Below is our string type variable containing a star
 
 stars = "*" 
 
-"""
 
-To complete the pattern which consists of nine lines
-the for loop needs to complete nine iterations for the pattern
+# To complete the pattern which consists of nine lines
+# the for loop needs to complete nine iterations for the pattern
 
-"""
 
 
 for i in range (9):
