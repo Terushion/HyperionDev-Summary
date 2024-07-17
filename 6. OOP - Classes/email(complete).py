@@ -1,4 +1,4 @@
-""" Practical Task - OOP Email Simulator """
+# Practical Task - OOP Email Simulator
 
 
 """
